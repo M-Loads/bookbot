@@ -2,7 +2,7 @@ from stats import get_num_words
 
 def main():
   text_string = get_book_text ("books/frankenstein.txt")
-  word_count = number_of_words(text_string)
+  word_count = get_num_words(text_string)
   print (f"Found {word_count} total words")
 
 def get_book_text(path):

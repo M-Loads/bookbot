@@ -11,6 +11,6 @@ def get_book_text(path):
 
 from stats import num_words
 
-  return num_words
+return num_words
 
 main()

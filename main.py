@@ -1,4 +1,4 @@
-from stats import get_num_words, get_letters_count
+from stats import get_num_words, get_letter_count
 
 def main():
   text_string = get_book_text ("books/frankenstein.txt")

@@ -1,4 +1,4 @@
-def main()
+def main():
   result = get_book_text ("books/frankenstein.txt"):
   print (result)
 

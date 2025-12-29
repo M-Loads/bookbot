@@ -22,6 +22,6 @@ def sort_letters(letters_dict):
     chars.append(s)
 
 chars.sort(reverse=True, key=sort_on)
-return chars
+  return chars
 
   

@@ -1,5 +1,5 @@
 import sys
-print (Usage: python3 main.py <path_to_book>)
+print ("Usage: python3 main.py <path_to_book>")
 from stats import get_num_words, get_letter_count, sort_letters
 
 def main():

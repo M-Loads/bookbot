@@ -22,7 +22,7 @@ def print_report(sorted_letters):
   for entry in sorted_letters:
     char = entry ["char"]
     num = entry ["num"]
-    if char.isaplha():
+    if char.isalpha():
       print (f"{char}: {num}")
 
 main()

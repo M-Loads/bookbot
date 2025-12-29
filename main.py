@@ -19,7 +19,7 @@ def get_book_text(path):
   return book_text
 
 def print_report(sorted_letters):
-  for entry in sorted_letters:
+  for entry in sort_letters:
     char = entry ["char"]
     num = entry ["num"]
     if char.isaplha():

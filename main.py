@@ -13,7 +13,7 @@ def main():
   letter_count = get_letter_count(text_string)
   letter_sorting = sort_letters(letter_count)
   print("============ BOOKBOT ============")
-  print("Analyzing book found at books/frankenstein.txt...")
+  print("Analyzing book found at {path}...")
   print("----------- Word Count ----------")
   print (f"Found {word_count} total words")
   print("--------- Character Count -------")

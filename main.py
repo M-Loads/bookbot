@@ -10,7 +10,7 @@ def main():
   print("----------- Word Count ----------")
   print (f"Found {word_count} total words")
   print("--------- Character Count -------")
-  print (sort_letters)
+  print_report(letter_sorting)
   print("============= END ===============")
 
 def get_book_text(path):
@@ -18,8 +18,8 @@ def get_book_text(path):
       book_text = f.read()
   return book_text
 
-def print_report(sort_letters):
-  for entry in sort_letters:
+def print_report(sorted_letters):
+  for entry in sorted_letters:
     char = entry ["char"]
     num = entry ["num"]
     if char.isaplha():
